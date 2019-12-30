@@ -1,0 +1,285 @@
+
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+     background-image: url(../images/background/1.jpg) ; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0 auto;
+     font-family: "Titillium Web";
+     padding: 0 75px;
+
+}
+
+* {box-sizing: border-box;}
+
+
+.rec{
+	background-color: #424658;
+	margin-bottom: 5px;
+	    border-radius: 8px;
+}
+.rec p{
+	font-size: 14px;
+	color: #a4a4a7;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.rec img{
+	height: 23px;
+	margin-top: 10px;
+	margin-left: 27px;
+}
+.faq{
+	background-color: #272933;
+}
+.faq img{
+	margin-right: 10px;
+	margin-left: 15px;
+}
+.faq p{
+	color: #ededed;
+	font-size: 16px;
+	font-weight: 600;
+}
+.faq .right{
+	float: left;
+	    padding-left: 852px;
+}
+.faq .right img{
+	margin-right: 2px;
+
+}
+.utile {
+	    padding-top: 17px;
+
+}
+
+ .navbar{
+ 	background: #272933 !important;
+ 	height: 60px;
+
+ }
+ .navbar-nav a{
+ 	font-family: "Titillium Web";
+ 	font-weight: 600;
+ 	color: #fff !important;
+ 	/*margin-top: 0 auto;*/
+ 	margin-right: 18px;
+ }
+  .navbar-nav a:hover{
+ 	background: #21222b;
+ 	color: #fff !important;
+ }
+ .nav-link.active{
+ 	border-bottom: 5px solid #ffad29;
+ 	background: #21222b;
+ 	
+ }
+.navbar-collapse{
+	background:  #272933;
+ 	}
+
+ .icon{
+ 	float: right;
+ 	margin-right: 16px;
+ 	color: #ffad29;
+ }
+ .icon:hover{
+ 	color: red;
+ }
+ .logo{
+ 	padding-top: 47px;
+ 	padding-bottom: 70px;
+ 	padding-left: 24px;
+ }
+.banner{
+    padding-top: 7px;
+    text-align: center
+}
+.background{
+	background-color: rgb(242,242,220,1);
+	position: relative;
+    padding: 0 40px 31px 40px;
+    height: 2969px;
+}
+.index{
+	padding-top: 34px;
+    margin-left: -14px;
+}
+.index a{
+	color: #676767;
+}
+
+.line{
+	width: 1116px;
+}
+.heading h2{
+	font-weight: 700;
+	font-size: 25px;
+	color: #424242;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.login{
+	padding-bottom: 10px;
+}
+.login h3{
+	font-size: 20px;
+	font-weight: 700;
+	color: #7f7f7c;
+
+}
+.reg{
+	background-color: #d5d5c9;
+	/*border-radius: 8px;*/
+	width: 100%;
+	padding: 5px;
+}
+.reg h2{
+	font-size: 15px;
+	font-weight: 600;
+	color: #7f7f7c;
+}
+.register{
+	background-color: #eaeae0;
+}
+.register p{
+	font-size: 15px;
+	font-weight: normal;
+	color: #8c8c88;
+	margin-left: 7px;
+}
+
+.COPPA{
+	background-color: #d5d5c9;
+	padding: 5px;
+	margin-top:10px;
+}
+.COPPA h3{
+	font-size: 15px;
+	font-weight: 600;
+	color: #7f7f7c;
+	margin-left: 17px;
+	
+}
+.footer{
+	background-color: #eaeadc;
+}
+.footer-logo{
+	margin-left: 504px;
+	padding-top: 15px;
+	
+}
+.footer .text p{
+	font-size: 15px;
+	color: #a4a4a7;
+}
+.footer .text span{
+	font-size: 15px;
+	color: #ffad29;
+}
+.footer .text{
+	/*padding-top: 13px;*/
+	padding-bottom: 6px;
+}
+.footer-bottom{
+	background-color: #2a2e33;
+	    border-radius: 4px;
+}
+.team p{
+	float: left;
+	/*font-weight: lighter;*/
+	font-size: 17px;
+	color: #ffad29;
+	margin-top: 12px;
+
+}
+.team span{
+	color: #a4a4a7;
+	margin-left: 14px;
+}
+.team img{
+	margin-left: 10px;
+	margin-right: 3px;
+}
+.footer-left i{
+	margin-right: 5px;
+	margin-top: 17px;
+	color: #ffad29;
+}
+.footer-left a{
+	color: #ffad29;
+}
+.sectionImg{
+    width: 65%;
+}
+.bannerImg{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  body {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (min-width: 2560px) {
+	.logo{
+         padding-top: 170px;
+         padding-bottom: 100px;
+         padding-left: 24px;
+	}
+}
+@media only screen and (min-width: 1440px){
+	.faq .right{
+		padding-left: 940px;
+	}
+}
+@media only screen and (min-width: 2560px){
+	.faq .right{
+		padding-left: 1964px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.line{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.footer-logo{
+		margin-left: 1087px !important;
+	}
+}
+@media only screen and (min-width: 1440px){
+	.footer-logo{
+		margin-left: 535px;
+	}
+}
+@media only screen and (min-width: 2560px){
+	.team{
+		padding-left: 636px;
+	}
+}
+@media only screen and (min-width: 1440px){
+	.team{
+		padding-left: 80px;
+	}
+}
+
